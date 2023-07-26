@@ -1,10 +1,6 @@
-import React from 'react'
 import { TodoTextInput } from './TodoTextInput'
 import { useTodo } from '../useTodo'
 import { motion } from 'framer-motion'
-
-const gartielTamo = '<3'
-const navialcantara = 'TheThing'
 
 const Header = () => {
   const [, dispatch] = useTodo()
